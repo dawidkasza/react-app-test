@@ -43,8 +43,8 @@ a {
   text-decoration: none;
   color: $color-light;
   font-weight: 600;
+}
 
-  &:hover {
-    color: lighten($color-light, 10%);
-  }
+.linkActive {
+   color: $color-warning;
 }
