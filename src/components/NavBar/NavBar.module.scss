@@ -1,0 +1,50 @@
+@import '../../styles/settings.scss';
+
+nav {
+  background-color: darken($color-dark, 3%);
+  font-size: 24px;
+  color: $color-light;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container > a {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.fa-tasks {
+  padding: 10px 12px;
+  border-radius: 4px;
+  background-color: lighten($color-dark, 5%);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-light;
+  font-weight: 600;
+
+  &:hover {
+    color: lighten($color-light, 10%);
+  }
+}
