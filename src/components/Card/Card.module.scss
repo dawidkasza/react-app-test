@@ -10,4 +10,18 @@
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    color: $color-dark;
+}
+
+.button {
+  margin-left: 8px;
+  color: gray;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color .2s;
+}
+
+.isFavorite {
+  color: gold;
 }
